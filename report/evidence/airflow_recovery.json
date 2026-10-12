@@ -1,0 +1,22 @@
+{
+  "student_id": "2A202602763",
+  "trip": "trip-09608",
+  "selection": "numeric suffix 202602763 % 26 = 25 (GUIDE int(full MSSV) cannot handle 2A)",
+  "reset_performed": false,
+  "baseline_run": "stage5_pipeline",
+  "recovery_run": "stage5_fail_once",
+  "failed_snapshot_counts": {
+    "upstream_failed": 7,
+    "success": 29,
+    "failed": 1
+  },
+  "recovered_counts": {
+    "success": 37
+  },
+  "clear_method": "Airflow REST API, only_failed, silver_frames + downstream; dry-run scope 8",
+  "dataset_version_before": "754d04ff57ed",
+  "dataset_version_after": "754d04ff57ed",
+  "version_unchanged": true,
+  "final_frames": 1019,
+  "verify_all_passed": true
+}

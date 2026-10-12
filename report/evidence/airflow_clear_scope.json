@@ -1,0 +1,52 @@
+{
+  "task_instances": [
+    {
+      "dag_id": "day09_video_pipeline",
+      "dag_run_id": "stage5_fail_once",
+      "execution_date": "2026-10-12T10:03:12+00:00",
+      "task_id": "dbt_run_silver"
+    },
+    {
+      "dag_id": "day09_video_pipeline",
+      "dag_run_id": "stage5_fail_once",
+      "execution_date": "2026-10-12T10:03:12+00:00",
+      "task_id": "dbt_test_silver"
+    },
+    {
+      "dag_id": "day09_video_pipeline",
+      "dag_run_id": "stage5_fail_once",
+      "execution_date": "2026-10-12T10:03:12+00:00",
+      "task_id": "dbt_run_gold"
+    },
+    {
+      "dag_id": "day09_video_pipeline",
+      "dag_run_id": "stage5_fail_once",
+      "execution_date": "2026-10-12T10:03:12+00:00",
+      "task_id": "dbt_test_gold"
+    },
+    {
+      "dag_id": "day09_video_pipeline",
+      "dag_run_id": "stage5_fail_once",
+      "execution_date": "2026-10-12T10:03:12+00:00",
+      "task_id": "publish_lake"
+    },
+    {
+      "dag_id": "day09_video_pipeline",
+      "dag_run_id": "stage5_fail_once",
+      "execution_date": "2026-10-12T10:03:12+00:00",
+      "task_id": "export_dataset"
+    },
+    {
+      "dag_id": "day09_video_pipeline",
+      "dag_run_id": "stage5_fail_once",
+      "execution_date": "2026-10-12T10:03:12+00:00",
+      "task_id": "publish_warehouse"
+    },
+    {
+      "dag_id": "day09_video_pipeline",
+      "dag_run_id": "stage5_fail_once",
+      "execution_date": "2026-10-12T10:03:12+00:00",
+      "task_id": "silver_frames"
+    }
+  ]
+}
